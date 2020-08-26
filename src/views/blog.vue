@@ -11,7 +11,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="sidebar">
-                        done
+                        <blogSidebar />
                     </div>
                 </div>
             </div>
@@ -20,7 +20,8 @@
 </template>
 
 <script>
-import blogPosts from "@/components/blog/blogPosts.vue";
+import blogPosts from "@/components/blog/blogposts";
+import blogSidebar from "@/components/blog/blogsidebar.vue";
 export default {
     data: function() {
         return {
@@ -30,7 +31,8 @@ export default {
     },
     name: "Blog",
     components: {
-        blogPosts
+        blogPosts,
+        blogSidebar
     }
 };
 </script>
