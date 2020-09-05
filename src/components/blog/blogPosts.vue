@@ -1,4 +1,4 @@
-<template>
+<template lang="html">
     <div class="post-box">
         <span class="post-views">{{ views }}</span>
         <h3 class="post-title">{{ title | reversing }}</h3>
@@ -15,14 +15,21 @@
     </div>
 </template>
 
-<script>
-export default {
+<script lang="js">
+
+  export default  {
+    name: 'blogposts',
     props: ["views", "title", "date", "content", "author", "category"],
-    name: "blogPosts"
-};
+    methods: {
+
+    },
+    computed: {
+
+    }
+}
 </script>
 
-<style lang="scss" scoped>
+<style scoped lang="scss">
 .post-box {
     padding: 15px;
     background-color: rgb(238, 226, 226);
