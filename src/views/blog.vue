@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import blogPosts from "../components/blog/blogposts.vue";
+import blogPosts from "../components/blog/blogposts";
 import blogSidebar from "../components/blog/blogsidebar.vue";
 import JSONPosts from "../json/Blog_posts";
 
