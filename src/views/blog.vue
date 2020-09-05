@@ -29,8 +29,8 @@
 </template>
 
 <script>
-import blogPosts from "../components/blog/blogposts";
-import blogSidebar from "../components/blog/blogsidebar.vue";
+import blogPosts from "../components/blogposts.vue";
+import blogSidebar from "../components/blogsidebar.vue";
 import JSONPosts from "../json/Blog_posts";
 
 export default {
